@@ -1,0 +1,13 @@
+2022-07-12 20:45:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TBL_STUDENT"; expected "TRUNCATE"; SQL statement:
+TBL_STUDENT [42001-214]
+2022-07-12 20:45:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TBL_STUDENT TBL_BOOK"; expected "TRUNCATE"; SQL statement:
+TBL_STUDENT TBL_BOOK [42001-214]
+2022-07-12 20:46:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TBL_STUDENT"; expected "TRUNCATE"; SQL statement:
+TBL_STUDENT [42001-214]
+2022-07-12 20:46:49 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Select * from tbl_Student\000d\000a [*]Select * from tbl_Book"; SQL statement:
+Select * from tbl_Student
+ Select * from tbl_Book [42000-214]
